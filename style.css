@@ -1,0 +1,33 @@
+.container{
+    height: 100vh;
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+#pic{
+    color: rgb(214, 7, 76);
+    font-size: 50px;
+}
+button{
+    margin-top: 10%;
+    background-color: rgb(141, 141, 190);
+    color: white;
+    border: 8px double;
+    font-size: 16px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color: blue;
+}
+#randomImage{
+    height:300px;
+    width:400px;
+    border-radius: 5%;
+}
+body{
+    background-color: rgb(200, 241, 228);
+}
